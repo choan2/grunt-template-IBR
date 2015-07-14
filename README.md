@@ -1,8 +1,8 @@
 # 그런트 가이드 문서를 위한 프로젝트
 
-이 그런트 예제는 `grunt 가이드문서` 를 대상으로 만들어진 그런트 예제 템플릿입니다.
+이 그런트 예제는 `demun님의 grunt 가이드문서` 를 대상으로 만들어진 그런트 예제 템플릿입니다. 
 
-그런트를 모르시면 [grunt 가이드 문서](https://github.com/demun/demun.github.com/wiki/01_00_grunt_guide) 를 참고하시기 바랍니다.
+그런트를 모르시면 [demun님의 grunt 가이드 문서](https://github.com/demun/demun.github.com/wiki/01_00_grunt_guide) 를 참고하시기 바랍니다.
 
 
 ## 설치
