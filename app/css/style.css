@@ -1,0 +1,234 @@
+@charset "utf-8";
+/*!
+ ======================================================================== 
+ * Project   : GruntTemplate(Grunt 를 사용하기 위한 예제 템플릿) v0.0.1
+ * Publisher : Nexbrain Infra Team, Publishing Pt. (publish@nexbrain.com)
+ * Build     : 2015-07-14
+ ======================================================================== 
+ */
+/* line 1, app\less\common\reset.less */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* line 22, app\less\common\reset.less */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+/* line 26, app\less\common\reset.less */
+body {
+  line-height: 1;
+}
+/* line 29, app\less\common\reset.less */
+ol,
+ul {
+  list-style: none;
+}
+/* line 32, app\less\common\reset.less */
+.empty {
+  content: '';
+  content: none;
+}
+/* line 36, app\less\common\reset.less */
+blockquote,
+q {
+  quotes: none;
+}
+/* line 40, app\less\common\reset.less */
+blockquote:before,
+q:before,
+blockquote:after,
+q:after {
+  content: '';
+  content: none;
+}
+/* line 44, app\less\common\reset.less */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/NanumGothic-Regular.eot');
+  src: url('../fonts/NanumGothic-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/NanumGothic-Regular.woff2') format('woff2'), url('../fonts/NanumGothic-Regular.woff') format('woff'), url('../fonts/NanumGothic-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/NanumGothic-Bold.eot');
+  src: url('../fonts/NanumGothic-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/NanumGothic-Bold.woff2') format('woff2'), url('../fonts/NanumGothic-Bold.woff') format('woff'), url('../fonts/NanumGothic-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/NanumGothic-ExtraBold.eot');
+  src: url('../fonts/NanumGothic-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../fonts/NanumGothic-ExtraBold.woff2') format('woff2'), url('../fonts/NanumGothic-ExtraBold.woff') format('woff'), url('../fonts/NanumGothic-ExtraBold.ttf') format('truetype');
+}
+/* 
+---------------------------------------------------------------
+*
+* common.less
+*
+---------------------------------------------------------------
+*/
+/* line 13, app\less\common\common.less */
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/* line 20, app\less\common\common.less */
+body {
+  font-family: "Nanum Gothic", "나눔고딕", "Malgun Gothic", "맑은고딕", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+}
+/* line 29, app\less\common\common.less */
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+/* line 41, app\less\common\common.less */
+a {
+  color: #0066ff;
+  text-decoration: none;
+}
+/* line 45, app\less\common\common.less */
+a:hover,
+a:focus {
+  color: #005ce6;
+}
+/* 
+---------------------------------------------------------------
+*
+* 한국어
+*
+---------------------------------------------------------------
+*/
+/* line 10, app\less\kor\kor.less */
+.wrapper {
+  width: 1200px;
+  margin: 30px auto;
+}
+/* line 19, app\less\kor\kor.less */
+.user {
+  background: url('../images/sub/user.png') no-repeat;
+  width: 25px;
+  height: 32px;
+  display: inline-block;
+}
+/* line 25, app\less\kor\kor.less */
+.download {
+  background: url('../images/sub/download.png') no-repeat;
+  width: 25px;
+  height: 32px;
+  display: inline-block;
+}
+/* line 34, app\less\kor\kor.less */
+.main {
+  background-color: #ddd;
+}
